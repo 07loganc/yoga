@@ -123,3 +123,11 @@ footer {
     padding: 16px;
     margin-top: 32px;
 }
+
+footer a {
+    color: #000000;
+}
+
+footer a:hover {
+    color: #fff;
+}
