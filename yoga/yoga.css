@@ -114,3 +114,12 @@ section {
 p:has(.btn) {
     text-align: center;
 }
+
+footer {
+    background-color: #a59c96;
+    font-size: 0.9em;
+    text-align: center;
+    color:#000000;
+    padding: 16px;
+    margin-top: 32px;
+}
