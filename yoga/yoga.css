@@ -41,3 +41,76 @@ nav ul li a{
     text-decoration: none;
     padding: 5px;
 }
+
+a:hover {
+    color: #fff;
+    background-color: #7f869a;
+}
+
+a:visited {
+    color: #003366;
+}
+
+main{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 16px;
+    border: 2px solid #a6a0ba;
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e4d8c5;
+}
+
+.services {
+    float: left;
+    width: 47%;
+    height: 400px;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.services img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.btn {
+    background-color: #B8195a;
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700px;
+    font-size: 16px;
+    border: 2px solid #B8195a;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+p:has(.btn) {
+    text-align: center;
+}
